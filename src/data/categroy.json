@@ -1,0 +1,48 @@
+{
+    "errcode": 0,
+    "errmsg": "success",
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "name": "京东超市",
+                "url": "http://p1.meituan.net/jungle/bd3ea637aeaa2fb6120b6938b5e468a13442.png"
+            },
+            {
+                "id": 2,
+                "name": "美团超市",
+                "url": "http://p0.meituan.net/jungle/6b93ee96be3df7cf2bb6e661280b047d3975.png"
+            },
+            {
+                "id": 3,
+                "name": "生鲜果蔬",
+                "url": "http://p0.meituan.net/jungle/f33ed552c52b4466b6308a2c14dbc62d4882.png"
+            },
+            {
+                "id": 4,
+                "name": "甜点饮品",
+                "url": "http://p0.meituan.net/jungle/45816fffb346c194d58e961fde7c0fad4901.png"
+            },
+            {
+                "id": 5,
+                "name": "京东超市",
+                "url": "http://p1.meituan.net/jungle/bd3ea637aeaa2fb6120b6938b5e468a13442.png"
+            },
+            {
+                "id": 6,
+                "name": "美团超市",
+                "url": "http://p0.meituan.net/jungle/6b93ee96be3df7cf2bb6e661280b047d3975.png"
+            },
+            {
+                "id": 7,
+                "name": "生鲜果蔬",
+                "url": "http://p0.meituan.net/jungle/f33ed552c52b4466b6308a2c14dbc62d4882.png"
+            },
+            {
+                "id": 8,
+                "name": "甜点饮品",
+                "url": "http://p0.meituan.net/jungle/45816fffb346c194d58e961fde7c0fad4901.png"
+            }
+        ]
+    }
+}

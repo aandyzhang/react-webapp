@@ -1,0 +1,1 @@
+export const GET_READY_TO_LOAD = "GET_READY_TO_LOAD"

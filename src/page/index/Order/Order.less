@@ -1,0 +1,174 @@
+.error-color {
+  color: red;
+}
+.success-color {
+  color: green;
+}
+.grey-color {
+  color: grey;
+}
+.warning-color {
+  color: orange;
+}
+.nocv-list {
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  justify-content: space-around;
+  padding: 30px 0px;
+  .nocv-item {
+    text-align: center;
+    .nocv-item-number {
+      margin-bottom: 15px;
+    }
+    .nocv-item-desc {
+      font-size: 30px;
+    }
+    .nocv-item-incr{
+      font-size: 16px;
+      color: #888;
+      padding-top: 20px;
+    }
+  }
+}
+.note{
+  font-size: 28px;
+  .note-item{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    .red{
+      height: 10px;
+      width: 10px;
+      border-radius: 100%;
+      background: red;
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .note-desc{
+      padding: 0px 10px;
+      line-height: 46px;
+      width: calc(100% - 60px);
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}
+
+.nocv-detail{
+  margin-top: 10px;
+  h2{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  .nocv-title-item{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+  }
+  .nocv-detail-item{
+    font-size: 20px;
+    margin-top: 30px;
+
+    .nocv-province-city{
+      background: white;
+      padding: 10px 0px;
+      margin: 10px;
+      border-bottom: 1px solid #FAFAFA;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .nocv-province-item{
+      background: #FAFAFA;
+      margin: 10px;
+      height: 30px;
+      border-radius: 30px;
+      padding: 10px 0px;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+      display: flex;
+      font-size: 20px;
+      align-items: center;
+      justify-content: space-around;
+      .triangle{
+        position: relative;
+        &.up{
+          &::after{
+            position: absolute;
+            right: -36px;
+            bottom: 6px;
+            display: table;
+            width: 12px;
+            height: 12px;
+            border: 2px solid #000;
+            border-bottom: 0;
+            border-right: 0;
+            content: ' ';
+            transform: rotate(45deg) scale(1);
+            transition: all 0.1s;
+          }
+        }
+        &.down {
+          &::after{
+            position: absolute;
+            right: -20px;
+            top: 6px;
+            display: table;
+            width: 12px;
+            height: 12px;
+            border: 2px solid #000;
+            border-top: 0;
+            border-left: 0;
+            content: ' ';
+            transform: rotate(45deg) scale(1);
+            transition: all 0.1s ;
+          }
+        }
+      }
+      .nocv-province-item-li{
+        width: 100px;
+        text-align: center;
+      }
+    }
+  }
+}
+.article{
+  h2{
+    font-size: 40px;
+    margin: 30px 20px 0px 20px;
+  }
+}
+
+.symptom-title{
+  h2{
+    font-size: 40px;
+    margin: 30px 20px 0px 20px;
+  }
+  .symptom-list{
+    margin: 20px;
+    .symptom-text{
+      font-family: PingFang-SC-Regular;
+      font-size: 30px;
+      margin-top: 30px;
+      line-height: 40px;
+      text-align: justify;
+      .emphasis-icon{
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 12px;
+        display: inline-block;
+        height: 12px;
+        border-radius: 100%;
+        border: 3px solid #00b377;
+      }
+      a{
+        text-decoration: none;
+        color: #666;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "errcode": 0,
+    "errmsg": "success",
+    "data": {
+        "list": [
+            {
+                "id": 1,
+                "count": 1022,
+                "url": "../../static/image/list.jpg",
+                "des": "幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待"
+            },
+            {
+                "id": 2,
+                "count": 1022,
+                "url": "../../static/image/list.jpg",
+                "des": "幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待"
+            },
+            {
+                "id": 3,
+                "count": 1022,
+                "url": "../../static/image/list.jpg",
+                "des": "荣耀10青春版 幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待"
+            },
+            {
+                "id": 4,
+                "count": 1022,
+                "url": "../../static/image/list.jpg",
+                "des": "荣耀10青春版 幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待"
+            },
+            {
+                "id": 5,
+                "count": 1022,
+                "url": "../../static/image/list.jpg",
+                "des": "荣耀10青春版 幻彩渐变 2400万AI自拍 全网通版4GB+64GB 渐变蓝 移动联通电信4G全面屏手机 双卡双待"
+            }
+        ]
+    }
+}
