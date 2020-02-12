@@ -154,10 +154,10 @@ class Order extends Component {
                     {item.cities == cities && cities.length > 0 ? cities.map((children, k) => {
                         return (
                             <div key={k} className="nocv-province-city">
-                                <div>{children.cityName}</div>
-                                <div>{children.confirmedCount}</div>
-                                <div>{children.deadCount}</div>
-                                <div>
+                                <div className="nocv-province-city-li">{children.cityName}</div>
+                                <div className="nocv-province-city-li">{children.confirmedCount}</div>
+                                <div className="nocv-province-city-li">{children.deadCount}</div>
+                                <div className="nocv-province-city-li">
                                     {children.curedCount}
                                 </div>
                             </div>

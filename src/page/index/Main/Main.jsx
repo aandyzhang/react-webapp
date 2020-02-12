@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route} from "react-router-dom";
+import { HashRouter, Route} from "react-router-dom";
 import Loadable from 'react-loadable';
 import BottomBar from '../BottomBar/index';
 // import Header from '../Home/Header/Header';
@@ -46,7 +46,7 @@ class Main extends Component {
     render() {
         return (
             <div className="wrapper">
-                <BrowserRouter>
+                <HashRouter>
                 <div>
                     {/* <Header /> */}
                     <Route path="/" component={Home} exact></Route>
@@ -55,7 +55,7 @@ class Main extends Component {
                     <Route path="/order" component={Order} exact></Route>
                     <BottomBar />
                 </div>
-                </BrowserRouter>
+                </HashRouter>
             </div>
         );
     }

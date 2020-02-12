@@ -7,7 +7,7 @@ export const getContentList = (page) => (dispatch) => {
         type: GET_READY_TO_LOAD,
         obj: false
     })
-    axios.get('/data/content.json').then((res)=>{
+    axios.get('./data/content.json').then((res)=>{
         setTimeout(()=>{
             if(res.data.errcode == 0) {
                 dispatch({

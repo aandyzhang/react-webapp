@@ -46,8 +46,7 @@ export const getCategoryList = () => async (dispatch) => {
     //     })
     // }
 
-    const result = await get('/data/category.json');
-    console.log(result)
+    const result = await get('./data/category.json');
     if(result.errcode === 0){
         dispatch({
             type: GET_CATEGORY_LIST,

@@ -15,7 +15,7 @@ const defaultState = {
             key: TABKEY.my
         }
     ],
-    activeKey: TABKEY.home
+    activeKey: location.hash.split('/')[1] || TABKEY.home
 }
 const changeActiveKey = (state,action) => {
     let activeKey = action.name;
